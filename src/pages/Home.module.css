@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+.home {
+  height: calc(100vh - 86px);
+  /* background-color: #c92e2eba; */
+  background: #e4406f;
+  background: -webkit-linear-gradient(159deg, #e4406f 0%, #ca2374 50%, #9c297f 100%);
+  background: linear-gradient(159deg, #e4406f 0%, #ca2374 50%, #9c297f 100%);
+  color: white;
+  display: flex;
+  position: relative;
+}
+
+.home_paragraph {
+  font-size: 100px;
+  font-family: "Yeseva One", cursive;
+  width: 50%;
+  text-align: center;
+  text-shadow: -5px 0px 0px black;
+  align-self: center;
+  z-index: 1;
+}
+
+.style1,
+.style2,
+.style3 {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  background: #e4406f;
+  border-radius: 26% 74% 57% 43% / 51% 54% 46% 49%;
+}
+
+.style1 {
+  background: linear-gradient(318deg, #e4406f00 0%, #ca2374 50%, #9c297f30 100%);
+  left: 280px;
+  top: 140px;
+}
+
+.style2 {
+  background: linear-gradient(318deg, #e4406f00 0%, #ca2374 50%, #9c297f0d 100%);
+  left: 280px;
+  top: 156px;
+}
+
+.style3 {
+  background: linear-gradient(318deg, #e4406f00 0%, #ca2374 50%, #9c297f14 100%);
+  left: 290px;
+  top: 160px;
+}
